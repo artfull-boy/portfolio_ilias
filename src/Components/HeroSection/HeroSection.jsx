@@ -95,7 +95,7 @@ function HeroSection() {
         Because if the cover doesn't grab you, what else will?
         </p>
         <div className='button'>
-            <a href={`${import.meta.env.VITE_PUBLIC_URL}/CV.pdf`} download='Ilias Rais.pdf'>
+            <a href={`/CV.pdf`} download='Ilias Rais.pdf'>
             <button className='primary' ref={magnetoRef}>
                 <span className='text font-medium' ref={magnetoTextRef}>
                 My Resume

@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 3000);
   }, []);
    // Check if the device width is greater than a certain value (e.g., 600px for mobile)
    const isMobile = window.innerWidth <= 600;
@@ -37,9 +37,9 @@ function App() {
   return (
      <div className='flex flex-col gap-20'>
              
-      {/*loading ? (
+      {loading ? (
         <LoadingPage />
-      ) : (*/
+      ) : (
         <>
 
         <HeroSection />
@@ -51,7 +51,7 @@ function App() {
 
 
         </>
-      /*)*/}
+      )}
       {!isMobile && (
         <AnimatedCursor
           innerSize={10}

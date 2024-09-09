@@ -14,7 +14,7 @@ function Work() {
             <p className='text-4xl font-semibold'>{exp.profile}</p>
             <p className='text-[20px] font-bold text-[#0000ff]'>{exp.entreprise}</p>
           </div>
-          <img className='md:block hidden' src={`${import.meta.env.VITE_PUBLIC_URL}/${exp.img}`} width={70} height={70} alt='company logo'></img>
+          <img className='md:block hidden' src={`/${exp.img}`} width={70} height={70} alt='company logo'></img>
         </div>
         ))}
     </div>
