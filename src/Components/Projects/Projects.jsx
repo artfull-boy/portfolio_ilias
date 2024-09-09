@@ -42,12 +42,12 @@ export default function Projects() {
             <a rel="noreferrer" key={project.link} href={project.link} target="_blank">
               <SwiperSlide key={project.description}>
                 <img
-                  src={`/${project.bgIMG}`}
+                  src={`${project.bgIMG}`}
                   className="absolute left-0 bottom-0 w-full h-full z-[-1] object-cover"
                   alt="project Mockups"
                 ></img>
                 <div className="flex flex-col justify-start items-center gap-4">
-                  <img src={`/${project.logo}`} width={60} height={60} className="min-w-[100px] h-[60px] object-contain" alt="project logo"></img>
+                  <img src={`${project.logo}`} width={60} height={60} className="min-w-[100px] h-[60px] object-contain" alt="project logo"></img>
                   <div className="flex flex-col gap-3 justify-center content-center">
                     <p className="text-3xl font-semibold text-white">
                       {project.name}

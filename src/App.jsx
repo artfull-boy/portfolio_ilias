@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
   }, []);
    // Check if the device width is greater than a certain value (e.g., 600px for mobile)
    const isMobile = window.innerWidth <= 600;

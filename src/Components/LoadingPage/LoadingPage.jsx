@@ -8,7 +8,7 @@ import './LoadingPage.css'
 function LoadingPage() {
     return (
         <div className='container_loading'>
-            <img className='logoanimation' src={gif} alt='Animated Logo'></img>
+            <img className='logoanimation w-[50px]' src={gif} alt='Animated Logo'></img>
         </div>
     )
 }
