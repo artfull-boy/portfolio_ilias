@@ -1,0 +1,82 @@
+[
+    {
+        "logo":"/assets/bymarologo.png",
+        "name":"Quality Management Platform",
+        "domain":["UX/UI Design","Full-Stack Development"],
+        "description":" Designed and developed the UI of a quality management platform with three user roles (Admin, Responsible QHSE, Responsible Quality)",
+        "bgIMG":"/assets/bymaro.png",
+        "link":"https://www.behance.net/gallery/205985463/AI-Platform-Construction-Company"
+    },
+    {
+        "logo":"/assets/10tenlogo1.png",
+        "name":"10ten Website",
+        "domain":["UX/UI Design","Front-end Development"],
+        "description":"Redesigned and Developed the main website’s user interface.",
+        "bgIMG":"/assets/10ten.png",
+        "link":"https://www.10ten.io"
+    },
+    {
+        "logo":"/assets/naorislogo.png",
+        "name":"Naoris Consulting Website",
+        "domain":["UX/UI Design","Front-end Development"],
+        "description":"Developed and maintained the company website, enhancing site performance by 20%.",
+        "bgIMG":"/assets/naoris.png",
+        "link":"https://www.naorisconsulting.com"
+    },
+    {
+        "logo":"/assets/bibnumberlogo.png",
+        "name":"Bib Number Detection",
+        "domain":["Computer Vision","Full-Stack Development"],
+        "description":"Designed and Developed a web application enabling photographers to upload marathon images and runners to search for and download their photos by bib number",
+        "bgIMG":"/assets/bibnumber.png",
+        "link":"https://github.com/artfull-boy/Bib-Number-Detection?tab=readme-ov-file"
+    },
+    {
+        "logo":"/assets/ciamlogo.png",
+        "name":"CIAM Website",
+        "domain":["UX/UI Design","Full-Stack Development"],
+        "description":"As a freelancer, I was responsible for designing the new Website of CIAM, and putting all the tools necessary to develop the website making it responsive and enjoyable.",
+        "bgIMG":"/assets/ciambg.png",
+        "link":"https://ciamcasa.com"
+    },
+    {
+        "logo":"/assets/unitykicklogo.png",
+        "name":"UnityKick World Cup",
+        "domain":["UX/UI Design","Front-End Project"],
+        "description":"Unity Kick offers a one-stop solution by aggregating all hosting country’s information in a single, user-friendly platform.",
+        "bgIMG":"/assets/unitykickbg.png",
+        "link":"https://artfull-boy.github.io/unityKick/"
+    },
+    {
+        "logo":"/assets/movieslogo.png",
+        "name":"Movies Website",
+        "domain":["Front-End Project"],
+        "description":"MovieBox, in collaboration with the TMDB API, provides a unified solution, amalgamating comprehensive data on films into an easily navigable platform.",
+        "bgIMG":"/assets/moviesbg.png",
+        "link":"https://artfull-boy.github.io/movies/"
+    },
+    {
+        "logo":"/assets/univlogo.png",
+        "name":"Usability Study",
+        "domain":["UX/UI Design"],
+        "description":"Conducted usability study, and redesigned the website of university to empower the students experience in their studying process.",
+        "bgIMG":"/assets/univbg.png",
+        "link":"https://www.behance.net/gallery/187961519/Website-Redesign-Case-Study"
+    },
+    {
+        "logo":"/assets/gwalalogo.png",
+        "name":"Usability Study",
+        "domain":["UX/UI Design","Confidential"],
+        "description":"Conducted user research and usability studies on the Gwala website, and redesigning the website based on the insights gathered from the usability study.",
+        "bgIMG":"/assets/gwalabg.png",
+        "link":""
+    },
+    {
+        "logo":"/assets/gwalalogo.png",
+        "name":"Employee & Employer Features",
+        "domain":["UX/UI Design","Confidential"],
+        "description":"Collaborate with the talented team at Gwala to create solutions that simplify and streamline HR processes, making the lives of both employers and employees easier.",
+        "bgIMG":"/assets/gwalabg2.png",
+        "link":""
+    }
+]

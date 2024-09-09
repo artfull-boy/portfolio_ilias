@@ -1,0 +1,28 @@
+.cta {
+    position: relative;
+}
+.cta::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #0000ff;
+    left: 0;
+    bottom: 0.5rem;
+    transition: width .6s ease-in-out;
+}
+
+.cta:hover::after {
+    width: 100%;
+}
+@media (max-width:830px) {
+    .cta {
+        position: relative;
+        text-align: center;
+        line-height: 0.9em;
+    }
+    .cta:hover::after {
+        width: 0%;
+    }
+}

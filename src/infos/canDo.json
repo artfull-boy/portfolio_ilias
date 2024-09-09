@@ -1,0 +1,22 @@
+[
+    {
+        "domain":"UX/UI Design",
+        "words": [
+            "User-Friendly.",
+            "Attractive.",
+            "Functional."
+        ],
+        "Experience":"Experience: 1+ Year",
+        "picture":"/assets/ux.png"
+    },
+    {
+        "domain":"Front-end Development",
+        "words": [
+            "Responsive_>",
+            "Engaging.",
+            "Seamless."
+        ],
+        "Experience":"Experience: 1+ Year",
+        "picture":"/assets/reponsive.png"
+    }
+]

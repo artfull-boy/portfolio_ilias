@@ -1,0 +1,55 @@
+.texts::after {
+    content: "";
+    position: absolute;
+    left: -10%;
+    bottom: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #0000ff;
+    border-radius: 71px;
+    transition: 1s cubic-bezier(1,-0.22,0,1.12) width;
+    z-index: -1;
+}
+.do:hover{
+    color: white;
+}
+.do:hover .texts::after {
+    width: 120%;
+}
+
+.do > div {
+    z-index:3;
+}
+.do {
+    transition: 1s cubic-bezier(1,-0.22,0,1.12) color;
+}
+.do .picture {
+    transition:  1s cubic-bezier(1,-0.22,0,1.12) transform;
+}
+.do:hover .picture {
+    transform: scale(1.2);
+}
+
+@media (max-width: 760px) {
+    .do::after {
+        content: "";
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+        height: 100%;
+        width: 0%;
+        background-color: #0000ff;
+        border-radius: 71px;
+        transition: 1s cubic-bezier(1,-0.22,0,1.12) width;
+        z-index: 0;
+    }
+    .do:hover::after {
+        width: 100%;
+    }
+    .texts::after {
+        display: none;
+    }
+    .texts {
+        z-index: 10;
+    }
+}

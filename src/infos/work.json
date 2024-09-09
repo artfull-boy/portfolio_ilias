@@ -1,0 +1,38 @@
+[
+    {
+        "active":"none",
+        "type":"Internship - 2 months",
+        "profile":"Developer & UX Researcher",
+        "entreprise":"Bymaro (Bouygues Construction Subsidiary)",
+        "img":"/assets/bymarologo.png"
+    },
+    {
+        "active":"none",
+        "type":"Internship - 4 Months",
+        "profile":"Full-Stack Developer & UX/UI Designer",
+        "entreprise":"Naoris Consulting",
+        "img":"/assets/naorislogo.png"
+    },
+    {
+        "active":"none",
+        "type":"Internship - 2 Months",
+        "profile":"Frontend Developer & UX/UI Designer",
+        "entreprise":"10ten",
+        "img":"/assets/10tenlogo.png"
+    },
+    {
+        "active":"none",
+        "type":"Part-Time - 6 Months",
+        "profile":"Junior UX/UI Designer",
+        "entreprise":"Gwala",
+        "img":"/assets/gwalalogo2.png"
+    },
+    
+    {
+        "active":"none",
+        "type":"Freelance - 1 Month",
+        "profile":"UX/UI Designer",
+        "entreprise":"Miratti Bags",
+        "img":"/assets/mirattilogo.png"
+    }
+]

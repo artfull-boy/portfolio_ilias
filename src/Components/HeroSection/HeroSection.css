@@ -1,0 +1,158 @@
+#hero {
+    position: relative;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+
+    overflow: hidden;
+}
+#hero::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.164);
+    z-index: -1;
+}
+#hero .bgImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+#hero .bgvec {
+    position: absolute;
+    width: 45%;
+    right: -25%;
+    top: -45%;
+    z-index: -1;
+    transform: rotate(206deg);
+    object-fit: cover;
+    animation: vec1 4s ease-in-out alternate infinite;
+}
+#hero .bgvec1 {
+    position: absolute;
+    width: 50%;
+    left: -22%;
+    bottom: -58%;
+    transform: rotate(206deg);
+    z-index: -1;
+    object-fit: cover;
+    animation: vec 4s ease-in-out alternate infinite;
+}
+@keyframes vec {
+    to {
+        left: -30%;
+        bottom: -80%;
+    }
+}
+@keyframes vec1 {
+    to {
+        right: -15%;
+        top: -35%;
+    }
+}
+
+#hero h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0px 25px;
+}
+#hero h1 span {
+    color: #0000FF !important;
+}
+
+#hero h1 span#typewrite {
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+
+}
+#hero .description {
+    color: white;
+    font-size: 26px;
+    line-height: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 25px;
+}
+#hero .button {
+    display: flex;
+    gap: 14px;
+    padding: 0px 25px;
+}
+#hero .button button {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        border: none;
+        background-color: #0000FF;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#hero .button .primary:hover {
+    background-color: #02028e;
+}
+#hero .button .secondary:hover {
+    background-color: #1e1d1d;
+}
+@media (max-width:1100px) {
+    #hero h1{
+        font-size: 85px;
+        padding: 0px 25px;
+    }
+    #hero .description {
+        font-size: 23px;
+    }
+}
+@media (max-width:850px) {
+    #hero h1{
+        font-size: 65px;
+        padding: 0px 25px;
+    }
+    #hero .description {
+        font-size: 20px;
+    }
+    
+}
+@media (max-width:720px) {
+    #hero h1{
+        font-size: 58px;
+        padding: 0px 25px;
+    }
+    #hero .description {
+        font-size: 18px;
+    }
+    #hero .button button {
+        font-size: 14px;
+    }
+}
+@media (max-width:580px) {
+    #hero h1{
+        font-size: 50px;
+        padding: 0px 25px;
+    }
+    #hero .description {
+        font-size: 16px;
+    }
+    #hero .button button {
+        font-size: 14px;
+    }
+
+}
