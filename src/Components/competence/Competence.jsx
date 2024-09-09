@@ -18,7 +18,7 @@ function Competence() {
                     <p className='font-normal text-xl flex content-center gap-1 justify-center md:justify-start'>{skill.Experience} <img src='https://em-content.zobj.net/source/apple/354/flexed-biceps_light-skin-tone_1f4aa-1f3fb_1f3fb.png' alt="Experience Icon" width={20}></img></p>
                 </div>
             </div>
-            <img src={`/${skill.picture}`} alt="skill" className='picture md:max-w-[350px] md:block hidden z-10 object-contain'/>
+            <img src={`/assets/${skill.picture}`} alt="skill" className='picture md:max-w-[350px] md:block hidden z-10 object-contain'/>
         </div>
   ))}
   </div>
